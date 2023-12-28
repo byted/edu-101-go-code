@@ -19,6 +19,7 @@ func main() {
 
 	w.RegisterWorkflow(farewell.GreetSomeone)
 	w.RegisterActivity(farewell.GreetInSpanish)
+	w.RegisterActivity(farewell.SayGoodbyeInSpanish)
 
 	// TODO: register your Activity
 
